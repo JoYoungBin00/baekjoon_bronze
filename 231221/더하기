@@ -1,19 +1,20 @@
 
 #include <iostream>
 
+using namespace std;
 int main()
 {
     int a;
     int b;
     int res;
 
-    std::cout << "숫자입력:";
-    std::cin >> a;
+    cout << "숫자입력:"<< endl;
+    cin >> a;
 
     
-    std::cout << "숫자입력";
-    std::cin >> b;
+    cout << "숫자입력"<<endl;
+    cin >> b;
 
     res = a + b;
-    std::cout <<"res:"<<res;
+    cout <<"res:"<<res<<endl;
 }
