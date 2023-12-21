@@ -1,0 +1,19 @@
+
+#include <iostream>
+
+int main()
+{
+    int a;
+    int b;
+    int res;
+
+    std::cout << "숫자입력:";
+    std::cin >> a;
+
+    
+    std::cout << "숫자입력";
+    std::cin >> b;
+
+    res = a + b;
+    std::cout <<"res:"<<res;
+}
