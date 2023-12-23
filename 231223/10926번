@@ -1,0 +1,24 @@
+
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+    string id = "dud123";
+
+    cout << "아이디 입력:";
+    string a;
+    cin >> a;
+
+    if (a == id) {
+        cout << id << "??!";
+    }
+    else {
+        cout << "중복 안됨";
+    }
+    return 0;
+   
+}
