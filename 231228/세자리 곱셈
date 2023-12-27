@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    int res;
+
+    cin >>a>>b;
+
+    res=a*b;
+    while(b){
+        cout<<b%10*a<<endl;
+        b/=10;
+
+    }
+    cout <<res<<endl;
+}
+   
