@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    int res;
+
+    cout << "숫자 입력:";
+    cin >> a >> b;
+
+
+    if (a == b) {
+        cout << "a=b";
+    }
+    else if (a > b) {
+        cout << "a>b";
+    }
+    else {
+        cout << "a<b";
+    }
+    return 0;
+}
