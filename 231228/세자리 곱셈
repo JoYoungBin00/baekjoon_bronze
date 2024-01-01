@@ -4,17 +4,19 @@ using namespace std;
 
 int main()
 {
-    int a,b;
+    int a, b;
     int res;
 
-    cin >>a>>b;
+    cout << "숫자 입력:";
+    cin >> a;
+    cout << "숫자 입력:";
+    cin >> b;
 
-    res=a*b;
-    while(b){
-        cout<<b%10*a<<endl;
-        b/=10;
-
+    res = a * b;
+    while (b) {
+        cout << b % 10 * a << endl;
+        b /= 10;
     }
-    cout <<res<<endl;
+    cout << res << endl;
 }
    
