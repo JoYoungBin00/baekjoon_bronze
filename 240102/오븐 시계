@@ -1,0 +1,26 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b,c;
+    
+
+
+    cout << "숫자 입력:";
+    cin >> a >> b >> c;
+
+    if (b+c<60) {
+        a = a;
+        b = b + c;
+
+    }
+    else {
+        a=(a + ((b + c) / 60)) % 24;
+        b=(b + c) % 60;
+    }
+
+    cout << a << "시" << b << "분";
+}
