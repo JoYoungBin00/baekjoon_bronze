@@ -5,10 +5,8 @@ using namespace std;
 
 int main()
 {
-    int a, b,c;
+    int a, b, c;
     
-
-
     cout << "숫자 입력:";
     cin >> a >> b >> c;
 
