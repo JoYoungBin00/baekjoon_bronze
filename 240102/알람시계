@@ -1,0 +1,27 @@
+
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int h, m;
+
+
+    cout << "숫자 입력:";
+    cin >> h >> m;
+
+    if (h < 0) {
+        h = 23;
+    }
+
+    if (m>45) {
+        m = m - 45;
+    
+    }
+    else if(m<45){
+        h = h - 1;
+        m = m + 15;
+    }
+    
+    cout << h << "시" << m << "분";
+}
