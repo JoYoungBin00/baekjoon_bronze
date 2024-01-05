@@ -1,0 +1,21 @@
+
+using namespace std;
+
+int main()
+{
+    int i;
+    int a;
+    int res;
+
+
+    cout << "숫자 입력:";
+    cin >> a;
+
+    for (i = 1; i < 9; i++) {
+        
+        res=a*i;
+
+        cout << a << "X" << i << "=" << res <<endl;
+    }
+
+}
