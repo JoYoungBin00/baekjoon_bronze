@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int pri=0;
+    int n=0;
+    int res=0;
+    int total=0;
+    int n2=0;
+
+    cout << "총 금액 입력:";
+    cin >> total;
+
+    cout << "개수 입력:";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cout << "물건 금액:";
+        cin >> pri;
+        cout << "물건 개수:";
+        cin >> n2;
+
+        res += (pri * n2);
+    }
+    if (total == res) {
+        cout << "Yes";
+    }
+    else {
+        cout << "No";
+    }
+    return 0;
+
+}
